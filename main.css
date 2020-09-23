@@ -98,9 +98,7 @@ article {
 button{
     background-color: #4d5791;
     color: white;
-    position: absolute;
-    left: 100px;
-    top: 150px;
+    text-align: center;
     display: inline-block;
     cursor: pointer;
     border: none;
@@ -109,9 +107,7 @@ button{
     font-size: 16px;
 }
 h3{
-    position: absolute;
-    left: 100px;
-    top: 150px;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
