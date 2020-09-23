@@ -95,14 +95,20 @@ article {
     background-color: #b4c6f0;
     text-align: center;
 }
+
 .button {
     background-color: #4d5791;
+    border: none;
     color: white;
     text-align: center;
     display: inline-block;
     cursor: pointer;
-    border: none;
     padding: 44px 44px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.bd {
     text-align: center;
     font-size: 16px;
 }
