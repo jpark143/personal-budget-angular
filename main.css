@@ -96,7 +96,7 @@ article {
     text-align: center;
 }
 
-.button {
+button {
     background-color: #4d5791;
     border: none;
     color: white;
@@ -104,11 +104,6 @@ article {
     display: inline-block;
     cursor: pointer;
     padding: 44px 44px;
-    text-align: center;
-    font-size: 16px;
-}
-
-.bd {
     text-align: center;
     font-size: 16px;
 }
