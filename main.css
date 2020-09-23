@@ -95,13 +95,15 @@ article {
     background-color: #b4c6f0;
 }
 .button{
-    text-decoration: none;
+    background-color: #4d5791;
     color: white;
+    position: relative;
     display: inline-block;
     cursor: pointer;
     border: none;
     padding: 44px 44px;
     text-align: center;
+    font-size: 16px;
 }
 
 @media screen and (min-width: 768px) {
