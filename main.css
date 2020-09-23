@@ -94,6 +94,15 @@ div.hero h2 {
 article {
     background-color: #b4c6f0;
 }
+.button{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    padding: 44px 44px;
+    text-align: center;
+}
 
 @media screen and (min-width: 768px) {
     .container .div.text-box {
