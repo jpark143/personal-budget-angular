@@ -95,7 +95,7 @@ article {
     background-color: #b4c6f0;
     text-align: center;
 }
-.button{
+button{
     background-color: #4d5791;
     color: white;
     position: absolute;
@@ -108,8 +108,10 @@ article {
     text-align: center;
     font-size: 16px;
 }
-.h3{
-    text-align: center;
+h3{
+    position: absolute;
+    left: 100px;
+    top: 150px;
 }
 
 @media screen and (min-width: 768px) {
