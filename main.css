@@ -96,7 +96,7 @@ article {
     text-align: center;
 }
 
-button {
+.button {
     background-color: #4d5791;
     border: none;
     color: white;
@@ -108,7 +108,7 @@ button {
     font-size: 16px;
 }
 
-.buword {
+div.word {
     text-align: center;
     font-size: 16px;
     font-style: bold;
