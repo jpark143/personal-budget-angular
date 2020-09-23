@@ -97,7 +97,8 @@ article {
 .button{
     background-color: #4d5791;
     color: white;
-    position: relative;
+    position: absolute;
+    margin-top: 10%;
     display: inline-block;
     cursor: pointer;
     border: none;
