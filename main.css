@@ -102,15 +102,11 @@ article {
     color: white;
     text-align: center;
     display: inline-block;
-    margin: 20px;
+    margin: 220px;
     cursor: pointer;
     padding: 44px 44px;
     text-align: center;
     font-size: 16px;
-}
-.start-area {
-    max-width: 768px;
-    display: inline-block;
 }
 
 div.start {
