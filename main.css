@@ -108,6 +108,10 @@ article {
     text-align: center;
     font-size: 16px;
 }
+.start-area {
+    max-width: 768px;
+    display: inline-block;
+}
 
 div.start {
     text-align: center;
