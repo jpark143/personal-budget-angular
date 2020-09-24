@@ -108,6 +108,11 @@ article {
     font-size: 16px;
 }
 
+.horizontal-center{
+    margin: 0;
+    position: absolute;
+}
+
 div.start {
     text-align: center;
     font-size: 16px;
