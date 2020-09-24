@@ -96,6 +96,11 @@ article {
     text-align: center;
 }
 
+.start-area {
+    max-width: 768px;
+    display: inline-block;
+}
+
 .button {
     background-color: #4d5791;
     border: none;
