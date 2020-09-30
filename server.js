@@ -1,32 +1,22 @@
+const { json } = require('body-parser');
 const express = require('express');
 const app = express();
 const port = 3000;
 
 app.use('/pb/', express.static('public'));
 
-const budget = {
-    myBudget: [
-    {
-        title: 'Eat out',
-        budget: 25
-    },
-    {
-        title: 'Rent',
-        budget: 375
-    },
-    {
-        title: 'Grocery',
-        budget: 110
-    },
- ]
-};
-
 app.get('/hello', (req, res) => {
     res.send('Hello World!');
 });
 
 app.get('/pb/budget', (req, res) => {
-    res.json(budget);
+    
+    //'use strict' is more security and more clear
+    //reading JSON file
+    let myBudget = require('./budget.json');
+    console.log(myBudget);
+
+    res.json(myBudget); //sending to the clinet
 });
 
 app.listen(port, () => {
